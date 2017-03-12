@@ -1,4 +1,4 @@
-import {addTodo, findByid, toggleTodo, updateTodo} from './todohelper'
+import {addTodo, findById, toggleTodo, updateTodo} from './todohelper'
 
 const startTodos = [
   {id:1, name: 'one', isComplete: false},
@@ -37,7 +37,7 @@ test('findByid should return the expected item from an array',  () => {
   // ]
 
   const expected = {id:2, name: 'two', isComplete: false}
-  const result = findByid(2, startTodos)
+  const result = findById(2, startTodos)
   expect(result).toEqual(expected)
 
 })
