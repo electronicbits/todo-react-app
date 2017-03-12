@@ -1,0 +1,20 @@
+import React from 'react'
+import {TodoItem} from './todoitem'
+
+export const TodoList = (props) => {
+  return (
+    <div className="Todo-List">
+      <ul>
+        {props.todos.map(todo =>
+          // <TodoItem id={todo.id} name={todo.name} />
+          <TodoItem key={todo.id} {...todo} />
+        )
+      }
+      </ul>
+    </div>
+  )
+}
+
+TodoList.propTypes = {
+  todos:React.PropTypes.array.isRequired
+}
