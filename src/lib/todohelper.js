@@ -3,7 +3,25 @@ export const addTodo = (list, item) => {
   return result;
 }
 
+//replacement for this function
+// export const addTodo = (list, item) => [...list, item]
+
 export const generateId = () => Math.floor(Math.random()*100000)
 
-//a valid replacement, however not readable at all
-// export const addTodo = (list, item) => [...list, item]
+export const findByid = (id, list) => list.find(item => item.id === id)
+
+// export const toggleTodo = (todo) => ({...todo, isComplete: !todo.isComplete})
+export const toggleTodo = (todo) => {
+  var e = {id: todo.id, name: todo.name, isComplete: !todo.isComplete}
+  return e;
+}
+
+export const updateTodo = (list, updated) => {
+  const updatedIndex = list.findIndex(item => item.id === updated.id)
+
+  return [
+    ...list.slice(0,updatedIndex),
+    updated,
+    ...list.slice(updatedIndex+1)
+  ]
+}
