@@ -10,7 +10,6 @@ export const TodoItem = (props) => {
         checked={props.isComplete}/>
       {props.name}
     </li>
-
   )
 }
 
