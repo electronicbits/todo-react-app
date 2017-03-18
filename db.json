@@ -1,49 +1,9 @@
 {
   "todos": [
     {
-      "id": 1,
-      "name": "Setup Server",
-      "isComplete": true
-    },
-    {
-      "id": 2,
-      "name": "Start Server",
-      "isComplete": false
-    },
-    {
-      "id": 3,
-      "name": "Connect to Server",
-      "isComplete": false
-    },
-    {
-      "id": 4,
-      "name": "Setup fetch",
-      "isComplete": false
-    },
-    {
-      "id": 5,
-      "name": "test",
-      "isComplete": true
-    },
-    {
       "id": 57327,
       "name": "trest",
       "isComplete": true
-    },
-    {
-      "id": 11756,
-      "name": "testing",
-      "isComplete": true
-    },
-    {
-      "id": 8843,
-      "name": "sdfd",
-      "isComplete": false
-    },
-    {
-      "id": 68838,
-      "name": "test",
-      "isComplete": false
     },
     {
       "id": 3180,
