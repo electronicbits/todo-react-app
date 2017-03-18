@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "Start Server",
-      "isComplete": true
+      "isComplete": false
     },
     {
       "id": 3,
@@ -23,17 +23,17 @@
     {
       "id": 5,
       "name": "test",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 57327,
       "name": "trest",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 11756,
       "name": "testing",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": 8843,
